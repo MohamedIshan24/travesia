@@ -1,6 +1,5 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import logo from '../assets/logo.png';
 
 export default function Sidebar({ open, onClose }) {
   const { user, logout } = useAuth();
@@ -36,9 +35,8 @@ export default function Sidebar({ open, onClose }) {
       >
         {/* Logo */}
         <div className="flex items-center justify-between gap-2 px-5 py-5" style={{ borderBottom: '1px solid rgba(43,43,40,0.1)' }}>
-          <Link to="/" onClick={onClose} className="flex items-center gap-2">
-            <img src={logo} alt="Travesía" className="h-9 w-auto" />
-            <span className="logo-script text-lg" style={{ color: '#1F2E2B' }}>Travesía</span>
+          <Link to="/" onClick={onClose} className="logo-script text-xl" style={{ color: '#1F2E2B' }}>
+            Travesía
           </Link>
           <button onClick={onClose} className="text-charcoal/40 hover:text-charcoal text-xl leading-none">
             ✕
