@@ -130,26 +130,6 @@ http://localhost:5173
 
 ---
 
-## Project Structure
-
-travesia/
-├── client/                 # React frontend
-│   ├── src/
-│   │   ├── components/     # Reusable components
-│   │   ├── context/        # Auth, Toast, Theme contexts
-│   │   ├── pages/          # All page components
-│   │   └── services/       # API service functions
-│   └── public/
-│
-└── server/                 # Express backend
-├── config/             # DB and Cloudinary config
-├── controllers/        # Route controllers
-├── middleware/         # Auth and admin middleware
-├── models/             # Mongoose models
-└── routes/             # Express routes
-
----
-
 ## API Endpoints
 
 | Method | Endpoint | Description | Auth |
