@@ -2,7 +2,7 @@
 
 A full-stack travel review web application built with the MERN stack. Users can explore destinations around the world, read and write reviews, save favorites, and get AI-generated historical guides for each place.
 
-🌐 **Live Demo:** [travesia.vercel.app](https://travesia.vercel.app)
+🌐 **Live Demo:** Coming Soon...
 
 ---
 
